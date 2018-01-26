@@ -1,0 +1,57 @@
+.navbar-brand {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background: #121212;
+}
+
+.jumbotron {
+  padding-top: 10px;
+  background-color: #1A1A1A;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.well {
+  background: #212121;
+  margin-bottom: 20px;
+}
+
+#movies h5 {
+  padding: 10px;
+  font-size: 80%;
+  color: white;
+}
+
+#movie {
+  padding: 20px;
+}
+
+#movie h3, #movie h2 {
+  color: white;
+  padding-top: 10px;
+}
+
+.list-group-item {
+  background: inherit;
+  color: white;
+}
+
+@media (min-width:960px) {
+  #movies .col-md-6 .well {
+    height: inherit;
+    margin: 10px;
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  #movies .col-md-6 .well img {
+    height: 340px;
+  }
+}
